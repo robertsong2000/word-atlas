@@ -56,7 +56,7 @@ def allowed(rel: Path) -> bool:
     if p[0] == "public":
         inner = p[1:]
         if len(inner) == 1:
-            return inner[0] in {"favicon.svg", "manifest.webmanifest", "icon-512.png", "robots.txt", "sw.js"}
+            return inner[0] in {"favicon.svg", "manifest.webmanifest", "icon-512.png", "robots.txt", "sw.js", "project-analysis.html"}
         if inner[0] == "sfx":
             return len(inner) == 2 and rel.suffix == ".mp3"
         if inner[0] == "brand":

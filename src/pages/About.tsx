@@ -103,6 +103,11 @@ export function About() {
           <a className="link" href={`${REPO_URL}#readme`} target="_blank" rel="noreferrer">
             阅读文档 <ArrowUpRight size={14} />
           </a>
+          <p className="muted">
+            <a className="link" href={`${BASE}project-analysis.html`}>
+              阅读工程深度分析 <ArrowUpRight size={14} />
+            </a>
+          </p>
         </section>
       </div>
       <p className="colophon">
